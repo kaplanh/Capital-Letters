@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: skyblue;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#textarea {
+  resize: none;
+  width: 100%;
+  background-color: #dede;
+  color: darkblue;
+  font-size: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  padding: 5px;
+  background-color: darkorange;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: large;
+  margin: 2px 0 10px 0;
+  transition: all 1s;
+  &:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+}}
+p {
+  color: darkblue;
+  font-size: 2rem;
+  
+  
+}
