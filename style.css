@@ -15,7 +15,7 @@ main {
 
 #textarea {
   resize: none;
-  width: 100%;
+  width: 80%;
   background-color: #dede;
   color: darkblue;
   font-size: 2rem;
